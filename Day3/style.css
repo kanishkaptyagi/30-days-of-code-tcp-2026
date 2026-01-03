@@ -1,0 +1,87 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+
+h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px 4px crimson;
+}
+
+h2 {
+    color: rgb(14, 14, 16);
+    text-shadow: 1px 1px 2px crimson;
+}
+
+iframe {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+div.container {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 1000px;
+}
+
+div.card {
+    padding: 20px;
+    border: 15px solid rgb(2, 245, 107);
+    border-style: solid;
+    box-shadow: 0px 0px 30px 30px rgb(240, 238, 238);
+    height: fit-content;
+    background-color: white;
+}
+
+div.profile-section {
+    display: flex;
+    height: 960px;
+    max-height: 700px;
+}
+
+div.profile-picture {
+    width:38%;
+}
+
+div.profile-details {
+    width:60%;
+}
+div.info {
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    border-left: 0.5px solid grey;
+    text-align: justify;
+    border-radius: 25px;
+    background-color: skyblue;
+    box-shadow: 5px 5px 15px 5px rgb(0, 0, 0);
+}
+div.links {
+    margin: 20px 0;
+    color: crimson;
+}
+a:link a:visited {
+    color: darkred;
+    text-decoration: underline;
+}
+a:hover a:active {
+    color: maroon;
+}
+div.skills {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 6px;
+    text-decoration-color: crimson;
+}
+div.quote {
+    border-top: 0.5px solid grey;
+    font-style: italic;
+}
+div.achievements-experiences-futureinterests {
+    align-items: center;
+    height: 480px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px crimson;
+}
