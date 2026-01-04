@@ -1,0 +1,44 @@
+style
+body{
+    background-color: black;
+}
+div.container{
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    background-color: white;
+}
+div.main_pages{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(228, 107, 13);
+}
+div.home_page{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: fit-content;
+    max-height: 400px;
+}
+div.product_features{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.product_image{
+    margin-top: 100px;
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
